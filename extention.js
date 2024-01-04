@@ -56,6 +56,7 @@
 
     const div = document.createElement("div");
     const select = document.createElement("select");
+    select.className = "gray_bevel";
     Object.entries({
       "Steam Year In Review": 24,
       "Completionist": 23,
